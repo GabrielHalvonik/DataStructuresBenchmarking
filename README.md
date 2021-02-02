@@ -69,5 +69,5 @@ The **TestStructure** class stores and tests individual operations assigned as f
 Based on the specified probability, it further selects from individual pointers to functions, and sends them to **TestTime** (Timer).
 ![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/TestStructure.png "User manual")
 
-For more information and **analysis of results** you can check untranslated 
+For more information and **analysis of results** you can check untranslated version of 
 [official documentation](https://github.com/GabrielHalvonik/Udajovky_Semestralka_1/blob/master/manual_res/HalvonikGabrielAUS1.docx)
