@@ -26,6 +26,9 @@ The structures and the test application are written in C++ with manual memory ma
 ![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/manual_2.png "User manual2")
 
 ### Description of tested ADS
+
+![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/UML.png "UML")
+
 #### List
 * ArrayList : dynamic array in contiguous memory
 * LinkedList : linear chained list in non-contiguous memory
@@ -65,3 +68,6 @@ Here is an example of a timer implementation.
 The **TestStructure** class stores and tests individual operations assigned as function pointers.
 Based on the specified probability, it further selects from individual pointers to functions, and sends them to **TestTime** (Timer).
 ![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/TestStructure.png "User manual")
+
+For more information and **analysis of results** you can check untranslated 
+[official documentation](https://github.com/GabrielHalvonik/Udajovky_Semestralka_1/blob/master/manual_res/HalvonikGabrielAUS1.docx)
