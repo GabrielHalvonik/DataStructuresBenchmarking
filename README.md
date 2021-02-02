@@ -5,7 +5,7 @@
 Structures benchmarking is semester project for the school subject [Data Structures and Algorithms](https://vzdelavanie.uniza.sk/vzdelavanie/planinfo.php?kod=274661&lng=sk "Data Structures and Algorithms").
  The goal wasto program and experimentally compare the performance of different implementations of data structures.
 
-The structures and the test application are written in C ++ with manual memory management.
+The structures and the test application are written in C++ with manual memory management.
 [Qt Framework](http://www.qt.io "Qt Framework") (v5.15) was used for better and more convenient testing and visualization.
 ## User manual
 ![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/manual_1.png "User manual")
@@ -59,8 +59,9 @@ For timing, I use std::chrono with high precision in nanoseconds.
 The TestTime class is designed to be static, as the application works with it frequently and for the whole duration of the application.
 
 Here is an example of a timer implementation.
-
+![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/TestTime.png "User manual")
 
 **TestStructure**
 The **TestStructure** class stores and tests individual operations assigned as function pointers.
 Based on the specified probability, it further selects from individual pointers to functions, and sends them to **TestTime** (Timer).
+![alt text](https://raw.githubusercontent.com/GabrielHalvonik/Udajovky_Semestralka_1/master/manual_res/TestStructure.png "User manual")
